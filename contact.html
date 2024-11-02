@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo"
+        src="https://fifauteam.com/images/fc25/logo/long-green.webp"
+        alt="logo"
+      />
+      <nav class="menu">
+        <ul>
+          <li>
+            <a href="index.html" target="_blank">Home page</a>
+          </li>
+          <li>
+            <a href="#">Posts</a>
+            <nav class="posts-list">
+              <ul>
+                <li><a href="post1.html" target="_blank">post1</a></li>
+                <li><a href="post2.html" target="_blank">post2</a></li>
+                <li><a href="post3.html" target="_blank">post3</a></li>
+                <li><a href="post4.html" target="_blank">post4</a></li>
+                <li><a href="post5.html" target="_blank">post5</a></li>
+                <li><a href="post6.html" target="_blank">post6</a></li>
+                <li><a href="post7.html" target="_blank">post7</a></li>
+                <li><a href="post8.html" target="_blank">post8</a></li>
+              </ul>
+            </nav>
+          </li>
+          <li>
+            <a href="about.html" target="_blank">About</a>
+          </li>
+          <li>
+            <a href="contact.html" target="_blank">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main id="contact">
+      <div class="form">
+        <form>
+          <div>
+            <label>Name</label>
+            <input type="text" required placeholder="please write your name" />
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="email" required />
+          </div>
+          <div>
+            <label>Password</label>
+            <input type="password" required />
+          </div>
+          <div>
+            <label>Phone</label>
+            <input type="tel" />
+          </div>
+          <div>
+            <label>Age</label>
+            <input type="number" min="1" max="100" />
+          </div>
+          <label>Birthdate</label>
+          <input type="date" />
+          <div>
+            <div>
+              <label>Male</label>
+              <input type="radio" name="gender" value="male" />
+            </div>
+            <div>
+              <label>Female</label>
+              <input type="radio" name="gender" value="female" />
+            </div>
+          </div>
+          <div>
+            <label>Country</label>
+            <select>
+              <option value="ru">Russia</option>
+              <option value="it">Italy</option>
+              <option value="sp">Spain</option>
+              <option value="ger">Germany</option>
+            </select>
+          </div>
+          <div>
+            <label>Favorite Clor</label>
+            <input type="color" />
+          </div>
+          <div>
+            <label>Upload Image</label>
+            <input type="file" />
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea placeholder="please write your message"></textarea>
+          </div>
+          <div>
+            <label>I accept the terms</label>
+            <input type="checkbox" />
+          </div>
+          <button type="submit">Send</button>
+          <button type="reset">Reset</button>
+        </form>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12167.280236433486!2d49.79630460185524!3d40.32415090260924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307ef2d0ca64f5%3A0x1a49d38c498337a7!2sBadamdar%2C%20Baku!5e0!3m2!1sen!2saz!4v1729610588557!5m2!1sen!2saz"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <p>2024 fc 25</p>
+    </footer>
+  </body>
+</html>
